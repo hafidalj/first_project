@@ -1,0 +1,38 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; 
+}
+nav{
+    height: 40px;
+    background: linear-gradient(-55deg, rgb(157, 0, 255), #2b0250);
+    justify-content: space-around;;
+
+    align-items: center;
+    
+    display: flex;
+    color: white;
+}
+#logout{
+    background-color: white;
+    padding:3px 10px;
+    cursor: pointer;
+    color: rgb(157, 0, 255);
+    border-radius: 10px;
+    transition: 0.2s;
+    border: rgb(157, 0, 255);
+}
+#logout:hover{
+    background-color: rgb(157, 0, 255);
+    color: white;
+    border: solid white 1px;
+}
+ol #listKomen{
+    padding: 10px;
+}
+#komentarUser{
+    font-size: large;
+}
+#isiKomentar{
+    color: rgb(88, 88, 88);
+}
